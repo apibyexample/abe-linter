@@ -16,6 +16,11 @@
     "url": "https://github.com/apibyexample/abe-linter/issues"
   },
   "homepage": "https://github.com/apibyexample/abe-linter",
+  "dependencies": {
+    "abe-spec": "git+https://git@github.com/apibyexample/abe-spec.git#632a6b4",
+    "glob": "~4.0.5",
+    "jayschema": "~0.3.1"
+  },
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-cli": "~0.1.13",
