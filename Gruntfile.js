@@ -20,6 +20,16 @@ module.exports = function (grunt) {
                 '**/*.js',
                 '!node_modules/**'
             ]
+        },
+        mochaTest: {
+            unit: {
+                options: {
+                    reporter: 'list'
+                },
+                src: [
+                    'tests/unit/**/*.js'
+                ]
+            }
         }
     });
 
